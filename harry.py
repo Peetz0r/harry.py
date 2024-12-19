@@ -4,7 +4,7 @@ import os, sys, re, readline
 
 try:
 
-  Q42FILE = './HaagsTranslator/src/HaagsTranslator/Translator.cs'
+  Q42FILE = '../HaagsTranslator/src/HaagsTranslator/Translator.cs'
   Q42FILE = os.path.realpath(os.path.join(os.path.dirname(os.path.realpath(__file__)), Q42FILE))
 
   PROMPT = 'harrie> '
